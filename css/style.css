@@ -1,3 +1,5 @@
+*reset css*
+
 * {
     padding :0;
     margin:0;
@@ -359,4 +361,136 @@ a:hover {
     text-decoration: none;
     -webkit-transition: 0.5s all;
     outline: 0;
+}
+
+/* end about Us */
+
+/* start Services */
+.services {
+    background-color: #936be800;
+
+}
+
+.service__container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+@media screen and(min-width:1280px) {
+    .service__container {
+        max-width: 1200;
+    }
+    
+}
+
+@media screen and(min-width:1200px) {
+    .service__container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+.services .services__content .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.services .services__content .col-md-4 {
+    margin-bottom: 30px;
+}
+
+@media screen and (mind-width:992px) {
+    .col-lg-4 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+}
+
+.row .box {
+    border-radius: 7px;
+    padding: 40px 30px;
+    background-color: #fff;
+    transition: all 0.5s ease 0s;
+    position: relative;
+}
+
+.box .icon {
+    font-size: 30 px; 
+    color: #189a46;
+}
+
+.box .icon i{
+    display: inline-block;
+    font: normal;
+
+}
+
+.box .icon .i::before {
+    content: "";
+
+}
+
+.box .icon h4 {
+    color: #000c04;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+}
+
+.box .icon h4 a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    display: block;
+    color: #000c04;
+}
+
+.box .icon p {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+
+}
+
+.box .icon a {
+    background-color: transparent;
+}
+
+.box .icon a:hover{
+    text-decoration: none;
+    background-color: transparent;
+    color: #189a46;
+}
+a.read {
+    font-size: 17px;
+    padding: 0;
+    border-bottom: 2px solid var(--primary-color);
+    color: #000c04;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+    border-radius: 0;
+    margin-top: 20px;
+    display: inline-block;
+    text-transform: capitalize;
 }
