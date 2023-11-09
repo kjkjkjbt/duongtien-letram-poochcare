@@ -12,3 +12,46 @@ body {
     font-weight: 400;
     background-color: #fff;
 }
+
+.section__title h3{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000C04;
+}
+
+.section__title p{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+/* Numbers */
+
+.numbers{
+    background-color: #189A46;
+}
+.numbers__content{
+    text-align: center;
+}
+
+.numbers__item{
+
+}
+.numbers__item p {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.numbers__item h4{
+    color: #fff;
+    opacity: 0.7;
+    font-size: 20px;
+    font-weight: 400;
+}
