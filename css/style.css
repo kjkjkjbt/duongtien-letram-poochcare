@@ -20,13 +20,32 @@ body {
     background: #fff;
     height: 80px;
     color: #fff; 
+    width: 100%;
+    max-width: 1200px;
+    z-index: 999;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    transition: all .3s ease-in-out;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 9px; */
 }
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    flex-wrap: nowrap;
+}
+
+@media screen and 
+(max-width: 991px) {
+    .header {
+        height: auto;
+        padding: 15px 0;
+    }
+    
 }
 @media screen  and (min-width: 576px) {
     .container {
@@ -34,3 +53,82 @@ body {
     }
     
 }
+
+.header .navbar-brand {
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #fff;
+}
+.header .nav-link {
+    font-size: 1.6rem;
+    color:#fff;
+    position: relative;
+    }
+.header .nav-item a:hover {
+    text-decoration: none;
+    color: #189a46;
+}
+
+.header .nav-item > a::after{
+    content: '';
+    /* background: url('../img/arrow_down.svg') no-repeat right top; */
+    }
+.header .dropdown-menu {
+    border-radius: 0;
+    border: none;
+}
+.header .dropdown-toggle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+}
+.header .dropdown-toggle:active::after {
+    display: block;
+}
+.header .dropdown-toggle::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+}
+.header .dropdown-toggle:active::before {
+    display: block;
+}
+
+.header .dropdown-item {
+    background: transparent ;
+    color: #3c3e4b;
+}
+
+.header .container a{
+    color: #189a46;
+}
+@keyframes bounceInDown {
+    0%, 20%, 53%, 80%, 100% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    40% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.header_nav li :last-child{
+    margin-right: 0px;
+
+}
+
+.header_nav li:not(:first-child) {
+    margin-left: 30px;
+}
+
+
+
+/* end header */
+
+/* start carousel */
+
