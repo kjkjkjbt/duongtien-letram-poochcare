@@ -12,3 +12,12 @@ body {
     font-weight: 400;
     background-color: #fff;
 }
+/* start header */
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    height: 80px;
+    color: #fff; 
+}
