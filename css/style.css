@@ -30,6 +30,18 @@ body {
     color: #f53626;
 }
 
+.btn__style{
+    background-color: #189A46;
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
 /* Numbers */
 
 .numbers{
@@ -55,3 +67,121 @@ body {
     font-size: 20px;
     font-weight: 400;
 }
+
+/* Packages */
+.packages__title p{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.packages__item{
+    background-color: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    align-self: center;
+    padding: 0;
+}
+
+.packages__item.active{
+    transform: scale(1.03);
+    z-index: 10;
+    box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
+}
+
+
+.packages__item--inner {
+    padding: 50px 40px;
+   
+}
+
+.packages__item--inner h6{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #000C04;
+    text-align: center;
+}
+
+.packages__item--inner h4{
+    margin: 15px 0 10px;
+    font-size: 40px;
+    line-height: 45px;
+    color: #189A46;
+}
+
+.packages__item--inner .packages__item--top h4{
+    margin-bottom: 0;
+}
+.packages__item--inner h4 sup{
+    font-size: 25px;
+}
+
+.packages__item--inner h4 span{
+    font-size: 16px;
+    color: #9999;
+    font-weight: 400;
+}
+
+.packages__item--inner ul li{
+    margin-bottom: 5px;
+    padding-top: 6px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #696969;
+}
+
+.packages__item--inner ul{
+    padding-top: 8px;
+}
+
+
+
+.packages__item--top{
+    padding: 44px 40px 15px;
+    background-color: #189A46;
+
+}
+
+.packages__item--top h5{
+    color: #189A46;
+    background-color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding:8px 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.packages__item--top h6, .packages__item--top h4{
+    color: #fff;
+
+}
+
+.packages__item--top h4 span{
+    color: #eee;
+
+}
+
+.packages__item--bot{
+    padding: 20px 30px 46px;
+}
+
+.button__buy{
+    margin-top: 30px;
+}
+.button__buy .btn__link{
+    text-decoration: none;
+    transition: all 0.75s;
+}
+
+.button__buy .btn__link:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #116E32;
+    border-color: #116E32;
+}
+
+/* Nutrition */
