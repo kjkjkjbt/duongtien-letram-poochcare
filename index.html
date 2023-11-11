@@ -15,7 +15,10 @@
 <!-- FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
- <!-- Bootstrap -->
+<!-- Venobox -->
+<link rel="stylesheet" href="./css/venobox.min.css">
+ 
+<!-- Bootstrap -->
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 <!-- MAIN CSS -->
@@ -134,7 +137,31 @@
             </div>
         </div>
     </section>
-    <section class="nutrition"></section>
+
+    <!-- Nutrition -->
+    <section class="nutrition py-5">
+        <div class="container">
+            <div class="nutrition__content">
+                <div class="nutrition__title section__title">
+                    <p>BETTER PET NUTRITION.</p>
+                    <h3>The Finest Fresh Food And All Your Pet Needs.</h3>
+                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="nutrition__video position-relative">
+                        <img src="./image/banner2.jpg" alt="" class="img-fluid">
+                        <div class="video_item position-absolute">
+                            <a href="https://player.vimeo.com/video/101587706?h=187bfc0989" data-ratio="21x9" data-vbtype="iframe" data-autoplay="true" data-maxwidth="700px"  class="video__link">
+                                <i class="fa-solid fa-play"></i>
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <section class="feedbacks"></section>
     <section class="fllow"></section>
     <footer class="footer"></footer>
@@ -154,5 +181,14 @@
    <!-- Bootstrap -->
    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-   </body>
+   <!-- Venobox -->
+   <script src="./js/venobox.min.js"></script>
+   <script>
+    new VenoBox({
+    selector: ".video__link",
+    bgcolor: "#000",
+    border: "none"
+});
+   </script>
+</body>
 </html>
