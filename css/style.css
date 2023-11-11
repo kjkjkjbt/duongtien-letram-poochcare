@@ -178,7 +178,7 @@ body {
     transition: all 0.75s;
 }
 
-.button__buy .btn__link:hover{
+.button__buy .btn__link:hover, .form__content button:hover{
     text-decoration: none;
     color: #fff;
     background-color: #116E32;
@@ -195,7 +195,7 @@ body {
     text-align: center;
 }
 
-.nutrition__content .nutrition__title p:last-child{
+.nutrition__content .nutrition__title p:last-child, .follow__title p{
     font-size: 17px;
     line-height: 28px;
     color: #696969;
@@ -240,4 +240,119 @@ body {
     }
     
 }
+
+/* Feedbacks */
+
+.feedbacks{
+    background-color: #f9f7fe;
+}
+
+.feedbacks .owl-dots{
+    top: 100%;
+    margin-top: 22px;
+} 
+
+.owl-theme .owl-dots .owl-dot span{
+    background-color:  #d8d8d8;;
+}
+
+.feedbacks__title{
+    text-align: center;
+}
+
+.feedbacks__item-top p::before{
+    content: '\201C';
+    font-size: 50px;
+    color: var(--primary-color);
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+}
+
+.feedbacks__item-top blockquote{
+    font-size: 15px;
+    margin: 0 16px 18px;
+}
+
+.feedbacks__item-top p::after{
+    content: '\201C';
+   
+}
+.feedbacks__item{
+    background-color: #fff;
+    padding: 40px 30px;
+}
+.feedbacks__item-bot{
+    display: flex;
+    align-items: center;
+    
+}
+
+.feedbacks__item .feedbacks__item-bot img{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
+
+.feedbacks__avt-name h4{
+    font-size: 19px;
+    margin: 0;
+
+}
+
+.feedbacks__avt-name p{
+    font-size: 16px;
+    color: #ababab;
+    margin: 0;
+    
+}
+
+/* Folloow */
+
+.follow{
+    
+}
+
+.follow__title{
+    text-align: center;
+    max-width: 650px;
+}
+
+.follow__form{
+    text-align: center;
+}
+
+.follow__form .form__content{
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.form__content input{
+    flex: 1;
+    font-size: 16px;
+    color: var(--title-color);
+    border-radius: 10px;
+    padding: 0px 20px;
+    height: 60px;
+    flex-basis: 70%;
+    background: #fff;
+    height: 60px;
+    border: 1px solid #ced4da;
+
+}
+
+.form__content input:focus{
+    border: 1px solid #189A46;
+}
+
+.form__content button{
+   flex-basis: 24%;
+   color: #fff;
+   background-color: #189A46;
+   border-color: #189A46;
+   transition: all 0.5s;
+}
+
 
