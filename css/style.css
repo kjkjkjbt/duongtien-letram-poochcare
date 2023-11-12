@@ -355,7 +355,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #000C04;
+    background-color: #111111;
 }
 
 .footer__item h5{
@@ -376,6 +376,7 @@ body {
 .footer__item ul li{
 
     margin-bottom: 5px;
+    
 }
 .footer__item ul li a{
     color: #696969;
@@ -383,6 +384,37 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.footer__item ul li a:hover{
+    color: #fff;
+}
+
+.footer__item  li a:hover::after{
+    
+    width: 100%;
+}
+
+
+.footer__item  li a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 2px;
+    height: 3%;
+    width: 0;
+    background-color: #fff;
+    border-radius: 6px;
+    transition: all 0.5s;
+    
+}
+
+.footer__item .item__social li a:hover::after{
+    width: 0c;
 }
 
 .footer__writer {
@@ -398,3 +430,76 @@ body {
 .footer__writer span{
     color: #f53626;
 }
+
+/* Responsive */
+
+
+
+ @media (max-width: 991.98px) { 
+    .packages .packages__content{
+        gap: 40px;
+        
+    }
+
+    .footer__content{
+        gap: 40px;
+        
+    }
+
+    .footer__content .footer__item{
+        margin-top: 30px;
+    }
+    
+ }
+
+@media (min-width: 768px) { 
+    .owl-theme .owl-dots .owl-dot span{
+        margin: 6px 9px;
+    }
+ }
+
+@media (max-width: 767px) {
+    .owl-theme .owl-dots{
+        display: none;
+    }
+
+    .form__content input{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .form__content .btn__style{
+        display: block;
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .packages .packages__content{
+        gap: 30px;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+   
+}
+
+
+
+
+@media (max-width: 475.99px) {
+     .packages .packages__content{
+        gap: 30px;
+        width: 100%;
+        
+    } 
+
+  
+
+    
+}
+
+
+
+
+
