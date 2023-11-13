@@ -15,9 +15,16 @@
 <!-- FONT AWESOME-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
- <!-- Bootstrap -->
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
- 
+<!-- Venobox -->
+<link rel="stylesheet" href="./css/venobox.min.css">
+<!-- OwlCarousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 <!-- MAIN CSS -->
 <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -280,18 +287,415 @@
             </div>
         </div>
     </section>
-    <section class="numbers">
+    <section class="offer"></section>
+    <section class="numbers py-5 ">
+        <div class="container">
+            <div class="row numbers__content">
+                <div class="col-6 col-lg-3 numbers__item">
+                    <p class="counter">730</p>
+                    <h4>Happy Clients</h4>
+                </div>
+                <div class="col-6 col-lg-3 numbers__item">
+                    <p class="counter">80</p>
+                    <h4>Professionals</h4>
+                </div>
+                <div class="col-6 col-lg-3 numbers__item">
+                    <p class="counter">812</p>
+                    <h4>Adopted Pets</h4>
+                </div>
+                <div class="col-6  col-lg-3 numbers__item">
+                    <p class="counter">90</p>
+                    <h4>Awards</h4>
+                </div>
+            </div>
+        </div>
         
     </section>
-    <section class="packages"></section>
-    <section class="nutrition"></section>
-    <section class="feedbacks"></section>
-    <section class="fllow"></section>
-    <footer class="footer"></footer>
+    <section class="packages py-5 text-center bg-light">
+        <div class="container-md">
+            <div class="section__title packages__title">
+                <p >
+                    Our Plans
+                </p>
+                <h3 class="mb-5">
+                    Affordable Packages
+                </h3>
+            </div>
+            <div class="row packages__content ">
+                <div class="col-12 col-lg-4 packages__item">
+                    <div class="packages__item--inner ">
+
+                        <h6>Free Package</h6>
+                        <h4>
+                            <sup >$</sup>0<span>/month</span>
+                        </h4>
+                        <ul>
+                            <li>5 Dog Walk</li>
+                            <li>3 Vet Visit</li>
+                            <li>3 Pet Spa</li>
+                            <li>Free Supports</li>
+                            <li>Customer Support</li>
+                        </ul>
+                        <div class="button__buy">
+                            <a href="#"  class="btn__style btn__link"  href="#" role="button">buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 packages__item active">
+                    <div class="packages__item--inner p-0">
+                        <div class="packages__item--top">
+                            <h5>
+                                save 10%
+                            </h5>
+                            <h6>
+                                Standard Package
+                            </h6>
+                            <h4>
+                                <sup>$</sup>39<span >/month</span>
+                            </h4>
+                        </div>
+                        <div class="packages__item--bot">
+                            <ul class="py-0">
+                                <li>5 Dog Walk</li>
+                                <li>3 Vet Visit</li>
+                                <li>3 Pet Spa</li>
+                                <li>Free Supports</li>
+                                <li>Customer Support</li>
+                            </ul>
+                            <div class="button__buy">
+                                <a href="#"  class="btn__style btn__link"  href="#" role="button">get started</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-4 packages__item">
+                    <div class="packages__item--inner">
+
+                        <h6>Pro Package</h6>
+                        <h4>
+                            <sup >$</sup>89<span>/month</span>
+                        </h4>
+                        <ul>
+                            <li>5 Dog Walk</li>
+                            <li>3 Vet Visit</li>
+                            <li>3 Pet Spa</li>
+                            <li>Free Supports</li>
+                            <li>Customer Support</li>
+                        </ul>
+                        <div class="button__buy">
+                            <a   class="btn__style btn__link"  href="#" role="button">buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nutrition -->
+    <section class="nutrition py-5">
+        <div class="container-sm py-5">
+            <div class="nutrition__content">
+                <div class="nutrition__title section__title">
+                    <p>BETTER PET NUTRITION.</p>
+                    <h3>The Finest Fresh Food And All Your Pet Needs.</h3>
+                    <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.</p>
+                </div>
+                <div class="mt-5">
+                    <div class="nutrition__video position-relative">
+                        <img src="./image/banner2.jpg" alt="" class="img-fluid">
+                        <div class="video_item position-absolute">
+                            <a href="https://player.vimeo.com/video/101587706?h=187bfc0989" data-ratio="21x9" data-vbtype="iframe" data-autoplay="true" data-maxwidth="700px"  class="video__link">
+                                <i class="fa-solid fa-play"></i>
+                               
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Feedbacks -->
+    <section class="feedbacks py-5 ">
+        <div class="container-md py-3">
+            <div class="feedbacks__content">
+                <div class="feedbacks__title section__title">
+                    <p>TESTIMONIALS</p>
+                    <h3 class="pb-5">Happy Clients & Feedbacks</h3>
+                </div>
+                <div class="feedbacks owl-carousel owl-theme">
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f1.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f2.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f2.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f2.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f2.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item feedbacks__item">
+                        <div class="feedbacks__item-top">
+                            
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                    voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                    Dolores molestias adipisci dolor sit amet!.</p>
+                            </blockquote>
+                        </div>
+                        <div class="feedbacks__item-bot">
+                            <img src="./image/f2.jpg" alt="">
+                            <div class="feedbacks__avt-name ml-3">
+                                <h4>Roy Linderson</h4>
+                                <p>Example City</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Follow -->
+    <section class="follow py-5">
+        <div class="container-sm p-3">
+            
+               
+                    <div class="follow__title section__title  mx-auto">
+                        <h3>
+                            Stay Updated!
+                        </h3>
+                        <p>
+                            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+                        </p>
+        
+                    </div>
+                    <form class="follow__form mt-5">
+                        <div class="d-md-flex form__content">
+                            <input type="email" placeholder="Enter your email..." name="email">
+                            <button class="btn btn__style  " type="submit">Subcribe</button>
+                        </div>
+        
+                    </form>
+                
+            
+        </div>
+    </section>
+    <footer class="footer pt-5">
+        <div class="container">
+            <div class="row footer__content">
+                <div class="col-12 col-lg-6 footer__item">
+                    <h5>
+                        Contact information
+                    </h5>
+                    <ul class="item__address">
+                        <li>
+                            <span>Address : #135 block, Barnard St. Brooklyn, London 10036, UK</span>
+                        </li>
+                         <li>
+                            <span>Phone :</span><a href="+(12)234-11-24">+(12)234-11-24</a>
+                        </li>
+                        <li>
+                            <span>Email : </span><a href="example@mail.com">example@mail.com</a>
+                        </li>
+                    </ul>
+                    <ul class="item__social">
+                        <li>
+                            <a href="#">
+                                <span><i class="fa-brands fa-facebook-f"></i></span>
+                            </i></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>
+                                <i class="fa-brands fa-twitter"></i>
+                            </span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>
+                                <i class="fa-brands fa-dribbble"></i>
+                            </span></a>
+                        </li>
+                        <li>
+                            <a href="#"><span>
+                                <i class="fa-brands fa-google"></i>
+                            </span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="row footer__flex">
+                        <div class="col-6 col-sm-4 footer__item">
+                            <h5>
+                                Archives
+                            </h5>
+                            <ul>
+                                <li><a href="">December 2020</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-4 footer__item">
+                            <h5>
+                                Categories
+                            </h5>
+                            <ul>
+                                <li><a href="">Animals</a></li>
+                                <li><a href="">Pets</a></li>
+                                <li><a href="">Pets care</a></li>
+                                <li><a href="">Uncategorized</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-4 footer__item">
+                            <h5>
+                                Meta
+                            </h5>
+                            <ul >
+                                <li><a href="">Log in</a></li>
+                                <li><a href="">Entries feed</a></li>
+                                <li><a href="">Comments feed</a></li>
+                                <li><a href="">WordPress.org</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__writer mt-5 py-4">
+            <p class="m-0">© 2023 All Rights Reserved by <span>W3Layouts.</span></p>
+        </div>
+    </footer>
+    <div class="backTotop">
+    
+            <i class="fa-solid fa-chevron-up"></i>
+    
+    </div>
    
    
+
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Countup -->
+    <script src="./js/jquery.countup.js"></script>
+
+    <script>
+        $('.counter').countUp({
+});
+    </script>
+    <!-- OwlCarousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 27,
+      nav: false,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        767: {
+          items: 2,
+          nav: false
+        },
+        1000: {
+          items: 2,
+          nav: false,
+          loop: false
+        }
+
+  
+        }
+})
+    </script>
    <!-- Bootstrap -->
-   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-   </body>
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <!-- Venobox -->
+   <script src="./js/venobox.min.js"></script>
+   <script>
+    new VenoBox({
+    selector: ".video__link",
+    bgcolor: "#000",
+    border: "none"
+});
+   </script>
+   <script src="./js/main.js"></script>
+</body>
 </html>
