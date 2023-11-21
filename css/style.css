@@ -72,11 +72,13 @@ body {
     transition: all .5s ;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 3px 9px;
 }
+header fixed-space-height {
+    margin-top: 90px;
+}
 
 .header .navbar{
     padding: 0.5rem 0;
 }
-
 
 .navbar-collapse .navbar-nav .nav-link {
     font-size: 16px;
@@ -114,6 +116,7 @@ body {
         transform: translateY(0);
     }
 }
+
 
 .header__search i{
     height: 35px;
@@ -269,6 +272,9 @@ body {
 
 /* end CAROUSEL */
 
+
+
+
 /* START ABOUT US */
 
 
@@ -283,6 +289,7 @@ body {
     letter-spacing: 1px;
     /* clear: both; */
 }
+
 
 .aboutUs__content{
     margin: 0 auto;
@@ -304,7 +311,6 @@ body {
     font-weight: 600;
     transition: 0.3s ease-in-out;
     margin-top: 20px;
-
 }
 
 .aboutUs__content a.read-more:hover {
@@ -316,9 +322,11 @@ body {
     /* -webkit-transition: 0.5s all; */
     outline: 0;
 }
-
-
 /* end about Us */
+
+
+
+
 
 /* start Services */
 .services {
@@ -340,6 +348,7 @@ body {
 }
 
 
+
 .service__item-inner:hover {
     background: #f3effd ;
 }
@@ -351,14 +360,7 @@ body {
     background-color: #222;
 }
 
-/* .col-4 {
-    position: relative;
-    float: left;
-    min-height: 1px;
-    padding-right: 15px;
-    width: 100%;
-    padding-left: 15px;
-} */
+
 .service__item-inner i{
     font-size: 30px; 
     color: #189a46;
@@ -373,6 +375,7 @@ body {
     line-height: 1.2;
 }
 
+
 .service__item-inner  a {
     text-decoration: none;
     color: inherit;
@@ -384,6 +387,7 @@ body {
     color: #000c04;
     transition: all 0.5s ;
 }
+
 
 .service__item-inner p, .aboutUs__content p:nth-child(3) {
     font-size: 17px;
@@ -409,9 +413,7 @@ body {
     color: #189a46!important;
 }
 
-/* .service__item-inner a.text-white:hover{
-    color: #189a46 !important;
-} */
+
 a.read-more {
     font-size: 17px;
     padding: 0;
@@ -425,10 +427,12 @@ a.read-more {
     text-transform: capitalize;
 }
 
-
-
-
 /* end SERVICE */
+
+
+
+
+
 
 /* START OFFER */
 .offer {
@@ -437,8 +441,6 @@ a.read-more {
     overflow: hidden;
     display: block;
 }
-
-
 
 
 .content {
@@ -492,13 +494,6 @@ a.read-more {
 .content {
     font-size: 25px;
 }
-
-
-
-
-
-
-
 
 /* Numbers */
 
@@ -944,16 +939,12 @@ a.read-more {
     }
 
     
-    .packages .packages__content{
+    .packages .packages__content, .footer__content{
         gap: 40px;
         
     }
 
-    .footer__content{
-        gap: 40px;
-        
-    }
-
+   
     .footer__content .footer__item{
         margin-top: 30px;
     }
@@ -1034,9 +1025,6 @@ a.read-more {
         
     } 
 
-
-
-  
 
     
 }
