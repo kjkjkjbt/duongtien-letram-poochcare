@@ -911,7 +911,15 @@ a.read-more {
 
 /* Responsive */
 
+@media (min-width: 992px) {
+    .carousel-item .carousel-caption{
+        left: 0;
+        right: 0;
+    }
 
+    
+}
+   
 
  @media (max-width: 991.98px) {
 
