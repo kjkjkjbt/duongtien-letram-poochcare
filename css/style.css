@@ -679,6 +679,11 @@ a.read-more {
     
 }
 
+.video_item a i:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
 @keyframes circleColor {
     0% {
         box-shadow: 0 0 0 0 rgba(15, 162, 66, 0.164), 
