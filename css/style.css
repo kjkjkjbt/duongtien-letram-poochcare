@@ -911,14 +911,7 @@ a.read-more {
 
 /* Responsive */
 
-@media (min-width: 992px) {
-    .carousel-item .carousel-caption{
-        left: 0;
-        right: 0;
-    }
 
-    
-}
    
 
  @media (max-width: 991.98px) {
@@ -963,14 +956,18 @@ a.read-more {
     .owl-theme .owl-dots .owl-dot span{
         margin: 6px 9px;
     }
+
+    .carousel-caption {
+        right: 0;
+        left: 0;
+    }
+   
  }
 
 @media (max-width: 767px) {
-    .carousel-caption.carousel__title{
-        left: 0;
-    }
-
+    
     .carousel-caption {
+        left: 0;
         right: 0;
     }
    
